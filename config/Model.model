@@ -14,7 +14,7 @@
             <defaultValue source="id"/>
         </dataFields>
     </datalists>
-    <datalists entityCode="6" entityName="Strategy" version="62" name="Strategy" created="2024-12-09T15:32:57.283+02:00" createdBy="admin" lastUpdated="2024-12-09T15:32:57.283+02:00" lastUpdatedBy="admin" id="Strategy">
+    <datalists entityCode="6" entityName="Strategy" version="69" name="Strategy" created="2024-12-09T15:32:57.283+02:00" createdBy="admin" lastUpdated="2024-12-09T15:32:57.283+02:00" lastUpdatedBy="admin" id="Strategy">
         <dataFields type="text" fieldCode="100" rawType="java.lang.String" allowNull="true" name="Name" initialized="true" id="Name"/>
         <dataFields type="text" fieldCode="101" rawType="java.lang.String" allowNull="true" name="Sector" initialized="true" id="Sector"/>
         <dataFields type="text" fieldCode="102" readOnly="true" rawType="java.lang.String" name="sourceName" description="Source name" initialized="true" id="sourceName">
