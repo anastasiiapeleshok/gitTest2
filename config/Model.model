@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
-<ns3:modelConfig xsi:type="ns3:ModelConfig" folder="" pauseCalculations="false" entityCode="1" loadPath="newTest2copy4" entityName="newTest2copy4" version="95" name="newTest2copy4" lastUpdated="2024-12-09T15:43:50.409+02:00" lastUpdatedBy="admin" id="admin:MODEL:newTest2copy4" xmlns:ns6="http://www.modelshop.com/services/account/types" xmlns:ns5="http://www.modelshop.com/datacore/message/types" xmlns:ns8="http://www.modelshop.com/datacore/generator/types" xmlns:ns7="http://www.modelshop.com/datacore/repository/types" xmlns:ns2="http://www.modelshop.com/datacore/view/types" xmlns:ns4="http://www.modelshop.com/services/model/types" xmlns:ns3="http://www.modelshop.com/model/model/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <datalists entityCode="2" entityName="Datalist1" version="87" name="Datalist1" description="" created="2024-12-09T14:26:16.059+02:00" createdBy="admin" lastUpdated="2024-12-09T14:26:16.059+02:00" lastUpdatedBy="admin" id="Datalist1"/>
-    <datalists entityCode="3" entityName="Datalist2" version="87" name="Datalist2" description="" created="2024-12-09T14:26:54.930+02:00" createdBy="admin" lastUpdated="2024-12-09T14:26:54.930+02:00" lastUpdatedBy="admin" id="Datalist2"/>
-    <datalists entityCode="4" entityName="Datalist3" version="87" name="Datalist3" description="" created="2024-12-09T14:28:05.815+02:00" createdBy="admin" lastUpdated="2024-12-09T14:28:05.815+02:00" lastUpdatedBy="admin" id="Datalist3"/>
-    <datalists entityCode="5" entityName="Datalist4" version="87" name="Datalist4" description="" created="2024-12-09T14:35:35.213+02:00" createdBy="admin" lastUpdated="2024-12-09T14:35:35.213+02:00" lastUpdatedBy="admin" id="Datalist4"/>
-    <datalists entityCode="7" entityName="Sheet2" version="87" name="Sheet2" created="2024-12-09T15:32:57.280+02:00" createdBy="admin" lastUpdated="2024-12-09T15:32:57.280+02:00" lastUpdatedBy="admin" id="Sheet2">
+<ns3:modelConfig xsi:type="ns3:ModelConfig" folder="" pauseCalculations="false" entityCode="1" loadPath="newTest2copy7" entityName="newTest2copy7" version="119" name="newTest2copy7" lastUpdated="2024-12-09T15:55:16.595+02:00" lastUpdatedBy="admin" id="admin:MODEL:newTest2copy7" xmlns:ns6="http://www.modelshop.com/services/account/types" xmlns:ns5="http://www.modelshop.com/datacore/message/types" xmlns:ns8="http://www.modelshop.com/datacore/generator/types" xmlns:ns7="http://www.modelshop.com/datacore/repository/types" xmlns:ns2="http://www.modelshop.com/datacore/view/types" xmlns:ns4="http://www.modelshop.com/services/model/types" xmlns:ns3="http://www.modelshop.com/model/model/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <datalists entityCode="2" entityName="Datalist1" version="115" name="Datalist1" description="" created="2024-12-09T14:26:16.059+02:00" createdBy="admin" lastUpdated="2024-12-09T14:26:16.059+02:00" lastUpdatedBy="admin" id="Datalist1"/>
+    <datalists entityCode="3" entityName="Datalist2" version="115" name="Datalist2" description="" created="2024-12-09T14:26:54.930+02:00" createdBy="admin" lastUpdated="2024-12-09T14:26:54.930+02:00" lastUpdatedBy="admin" id="Datalist2"/>
+    <datalists entityCode="4" entityName="Datalist3" version="115" name="Datalist3" description="" created="2024-12-09T14:28:05.815+02:00" createdBy="admin" lastUpdated="2024-12-09T14:28:05.815+02:00" lastUpdatedBy="admin" id="Datalist3"/>
+    <datalists entityCode="5" entityName="Datalist4" version="115" name="Datalist4" description="" created="2024-12-09T14:35:35.213+02:00" createdBy="admin" lastUpdated="2024-12-09T14:35:35.213+02:00" lastUpdatedBy="admin" id="Datalist4"/>
+    <datalists entityCode="7" entityName="Sheet2" version="115" name="Sheet2" created="2024-12-09T15:32:57.280+02:00" createdBy="admin" lastUpdated="2024-12-09T15:32:57.280+02:00" lastUpdatedBy="admin" id="Sheet2">
         <dataFields type="text" fieldCode="100" rawType="java.lang.String" allowNull="true" name="Value" initialized="true" id="Value"/>
         <dataFields type="text" fieldCode="101" rawType="java.lang.String" allowNull="true" name="Sector" initialized="true" id="Sector"/>
         <dataFields type="text" fieldCode="102" readOnly="true" rawType="java.lang.String" name="sourceName" description="Source name" initialized="true" id="sourceName">
@@ -14,7 +14,7 @@
             <defaultValue source="id"/>
         </dataFields>
     </datalists>
-    <datalists entityCode="6" entityName="Strategy" version="87" name="Strategy" created="2024-12-09T15:32:57.283+02:00" createdBy="admin" lastUpdated="2024-12-09T15:32:57.283+02:00" lastUpdatedBy="admin" id="Strategy">
+    <datalists entityCode="6" entityName="Strategy" version="115" name="Strategy" created="2024-12-09T15:32:57.283+02:00" createdBy="admin" lastUpdated="2024-12-09T15:32:57.283+02:00" lastUpdatedBy="admin" id="Strategy">
         <dataFields type="text" fieldCode="100" rawType="java.lang.String" allowNull="true" name="Name" initialized="true" id="Name"/>
         <dataFields type="text" fieldCode="101" rawType="java.lang.String" allowNull="true" name="Sector" initialized="true" id="Sector"/>
         <dataFields type="text" fieldCode="102" readOnly="true" rawType="java.lang.String" name="sourceName" description="Source name" initialized="true" id="sourceName">
@@ -24,10 +24,11 @@
             <defaultValue source="id"/>
         </dataFields>
     </datalists>
-    <datalists entityCode="8" entityName="Datalist5" version="87" name="Datalist5" description="" created="2024-12-09T15:39:06.988+02:00" createdBy="admin" lastUpdated="2024-12-09T15:39:06.988+02:00" lastUpdatedBy="admin" id="Datalist5"/>
-    <datalists entityCode="10" entityName="Datalist6" version="87" name="Datalist6" description="" created="2024-12-09T15:41:23.268+02:00" createdBy="admin" lastUpdated="2024-12-09T15:41:23.268+02:00" lastUpdatedBy="admin" id="Datalist6"/>
-    <datalists entityCode="11" entityName="Datalist7" version="90" name="Datalist7" description="" created="2024-12-09T15:43:50.409+02:00" createdBy="admin" lastUpdated="2024-12-09T15:43:50.409+02:00" lastUpdatedBy="admin" id="Datalist7"/>
-    <views allColumns="true" default="true" modelView="true" entityName="newTest2copy4" name="newTest2copy4" description="Default view for list newTest2" id="newTest2copy4"/>
+    <datalists entityCode="8" entityName="Datalist5" version="115" name="Datalist5" description="" created="2024-12-09T15:39:06.988+02:00" createdBy="admin" lastUpdated="2024-12-09T15:39:06.988+02:00" lastUpdatedBy="admin" id="Datalist5"/>
+    <datalists entityCode="10" entityName="Datalist6" version="115" name="Datalist6" description="" created="2024-12-09T15:41:23.268+02:00" createdBy="admin" lastUpdated="2024-12-09T15:41:23.268+02:00" lastUpdatedBy="admin" id="Datalist6"/>
+    <datalists entityCode="11" entityName="Datalist7" version="115" name="Datalist7" description="" created="2024-12-09T15:43:50.409+02:00" createdBy="admin" lastUpdated="2024-12-09T15:43:50.409+02:00" lastUpdatedBy="admin" id="Datalist7"/>
+    <datalists entityCode="12" entityName="Datalist8" version="115" name="Datalist8" description="" created="2024-12-09T15:55:16.595+02:00" createdBy="admin" lastUpdated="2024-12-09T15:55:16.595+02:00" lastUpdatedBy="admin" id="Datalist8"/>
+    <views allColumns="true" default="true" modelView="true" entityName="newTest2copy7" name="newTest2copy7" description="Default view for list newTest2" id="newTest2copy7"/>
     <views allColumns="true" default="true" entityName="Datalist1" name="Datalist1" description="Default view for list Datalist1" id="Datalist1"/>
     <views allColumns="true" default="true" entityName="Datalist2" name="Datalist2" description="Default view for list Datalist2" id="Datalist2"/>
     <views allColumns="true" default="true" entityName="Datalist3" name="Datalist3" description="Default view for list Datalist3" id="Datalist3"/>
@@ -37,6 +38,7 @@
     <views allColumns="true" default="true" entityName="Datalist5" name="Datalist5" description="Default view for list Datalist5" id="Datalist5"/>
     <views allColumns="true" default="true" entityName="Datalist6" name="Datalist6" description="Default view for list Datalist6" id="Datalist6"/>
     <views allColumns="true" default="true" entityName="Datalist7" name="Datalist7" description="Default view for list Datalist7" id="Datalist7"/>
+    <views allColumns="true" default="true" entityName="Datalist8" name="Datalist8" description="Default view for list Datalist8" id="Datalist8"/>
     <connectors layoutDetected="true" entityName="Sheet2" version="62" name="Sheet2" created="2024-12-09T15:32:57.281+02:00" createdBy="admin" lastUpdated="2024-12-09T15:32:57.281+02:00" lastUpdatedBy="admin" id="Sheet2">
         <connectorFields columnIndex="0" ignore="false" mapField="Value" type="text" rawType="String" allowNull="true" name="Value" id="Value"/>
         <connectorFields columnIndex="1" ignore="false" mapField="Sector" type="text" rawType="String" allowNull="true" name="Sector" id="Sector"/>
@@ -72,6 +74,6 @@
         </mediaConfig>
     </connectors>
     <extra name="ModelCanvasCoordinates" description="Coordinates for ModelCanvasCoordinates" id="ModelCanvasCoordinates">
-        <body>{"DATALIST:Datalist1":{"x":0,"y":0},"DATALIST:Datalist2":{"x":-467,"y":-33},"DATALIST:Datalist3":{"x":502,"y":-27},"DATALIST:Datalist4":{"x":60,"y":227},"CONNECTOR:Strategy":{"x":-156,"y":-348},"DATALIST:Strategy":{"x":-55,"y":-344},"DATALIST:Sheet2":{"x":-588,"y":258},"CONNECTOR:Sheet2":{"x":-515,"y":329},"DATALIST:Datalist5":{"x":1377,"y":-38},"DATALIST:Datalist6":{"x":-1760,"y":31},"DATALIST:Datalist7":{"x":1816,"y":-66}}</body>
+        <body>{"DATALIST:Datalist1":{"x":0,"y":0},"DATALIST:Datalist2":{"x":-467,"y":-33},"DATALIST:Datalist3":{"x":502,"y":-27},"DATALIST:Datalist4":{"x":60,"y":227},"CONNECTOR:Strategy":{"x":-156,"y":-348},"DATALIST:Strategy":{"x":-55,"y":-344},"DATALIST:Sheet2":{"x":-588,"y":258},"CONNECTOR:Sheet2":{"x":-515,"y":329},"DATALIST:Datalist5":{"x":1377,"y":-38},"DATALIST:Datalist6":{"x":-1760,"y":31},"DATALIST:Datalist7":{"x":1816,"y":-66},"DATALIST:Datalist8":{"x":-2201,"y":-75}}</body>
     </extra>
 </ns3:modelConfig>
